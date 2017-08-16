@@ -34,6 +34,7 @@ export default class App extends React.Component {
           ? 'Loading...' //display this placeholder, else...
           : weatherWeek.map((day,idx) => { //render the weather data for the coming week.
 
+
               let dayName = moment(day.dateTimeISO).format('dddd'); //Monday, Tuesday, etc...
               let date = moment(day.dateTimeISO).format('MMMM Do YYYY'); // August 15th 2017
 
@@ -41,10 +42,10 @@ export default class App extends React.Component {
                 <section className='days' key={dayName}>
                   <h4>{date}</h4>
                   <h3>{dayName}</h3>
-                  <img src={`../assets/icons/${day.icon}`} alt={day.icon}></img>
+                  <img src={`./icons/${day.icon}`} alt={day.icon}></img>
                   <p>
-                    High: {day.minTempF}<br/>
-                    Low: {day.maxTempF}
+                    High: {day.maxTempF}<br/>
+                    Low: {day.minTempF}
                   </p>
                 </section>
               );
