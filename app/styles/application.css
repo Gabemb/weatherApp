@@ -57,6 +57,7 @@ button:active {
   border-width: 1px;
   border-color: black;
   text-align: center;
+  background-color: #6868bb;
 }
 .days:hover {
   background-color: #b9b9e0;
