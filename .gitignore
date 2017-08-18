@@ -25,6 +25,9 @@ node_modules/
 # Brunch output folder.
 public/
 
+# Server side only info.
+private/
+
 # Optional npm cache directory
 .npm
 
