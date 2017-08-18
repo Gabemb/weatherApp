@@ -4,7 +4,7 @@ You will need to sign up for your own client ID and client secret from [Aeris We
 
 You will then need to create a `private` folder in the root directory and create a file called `config.js` inside of it.
 
-Your config.js should look something like this:
+Your `config.js` should look something like this:
 
 ```
 export default { id: 'ID',
