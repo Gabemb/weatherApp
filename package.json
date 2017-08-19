@@ -4,8 +4,8 @@
   "description": "A simple weather app",
   "main": "app.jsx",
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "start": "./node_modules/brunch/bin/brunch watch --server",
+    "build": "./node_modules/brunch/bin/brunch build --production"
   },
   "repository": {
     "type": "git",
